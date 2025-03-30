@@ -5,16 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Форма регистрации</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <main>
         <h1>Регистрация</h1>
-        <p>Уже есть аккаунт?</p>
-        <a href="#">Войти</a>
+        <p>Уже есть аккаунт? <a href="#">Войти</a></p>
         <form>
             <div>
-                <input type="text" name="nikname" value="Моя компания" required>
+                <input type="text" name="nikname" placeholder="Название компании" required>
             </div>
             <div>
                 <input type="text" name="name" placeholder="Имя" required>
@@ -29,7 +29,7 @@
                 <button type="submit">Зарегистрироваться &rarr;</button>
             </div>
             <div>
-                <input type="checkbox" name="agree" id="agree">
+                <input type="checkbox" name="agree" id="agree" required>
                 <label for="agree">Я прочитал и принимаю</label>
                 <a href="#">Условия использования</a>
             </div>
