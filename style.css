@@ -1,0 +1,49 @@
+body {
+  background: linear-gradient(180deg, #374151 0%, #111827 100%);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #fff;
+}
+nav a {
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+.main-blog-link {
+  font-size: 18px;
+}
+#search {
+  background-color: #283241;
+  color: #a9adb3;
+  font-size: 16px;
+}
+.head-name p {
+  font-size: 14px;
+  line-height: 200%;
+  color: #adb1b7;
+}
+h1 {
+  font-size: 24px;
+  line-height: 158%;
+}
+h2 {
+  font-size: 16px;
+  line-height: 175%;
+}
+.main-text {
+  font-size: 20px;
+  line-height: 160%;
+}
+.text,
+.text a {
+  font-size: 16px;
+  line-height: 187%;
+  font-weight: 400;
+  color: #fff;
+}
+footer p {
+  font-size: 16px;
+  line-height: 175%;
+  color: #adb1b7;
+}
