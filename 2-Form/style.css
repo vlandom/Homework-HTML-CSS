@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+}
+main {
+  background-color: #fffefe;
+}
+h1 {
+  font-weight: 700;
+  font-size: 36px;
+  color: #333;
+  font-family: "Open Sans", sans-serif;
+  line-height: 49px;
+  margin: 72px 0 0;
+}
+p {
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  color: #666;
+  line-height: 25px;
+  margin: 0 0 47px;
+}
+a {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-decoration: underline;
+  color: #089fe0;
+  font-family: "Open Sans", sans-serif;
+}
+a:hover {
+  color: #097eaf;
+}
+.checkbox a {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 19px;
+}
+input {
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #999;
+  border-radius: 5px;
+  border-style: none;
+  background: rgb(245, 245, 245);
+  height: 44px;
+  padding: 9px 11px;
+  margin-bottom: 22px;
+  box-sizing: border-box;
+}
+input:hover {
+  box-sizing: border-box;
+  border: 1px solid rgb(245, 245, 245);
+  border-radius: 5px;
+  background: rgb(255, 255, 255);
+}
+button {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #fff;
+  line-height: 25px;
+  background: #089fe0;
+  border-radius: 5px;
+  border-style: none;
+  height: 44px;
+  padding: 9px 102px;
+  box-sizing: border-box;
+  margin-bottom: 22px;
+}
+button:hover {
+  background: #0eb3fa;
+}
+.checkbox input {
+  border: 1px solid rgb(238, 238, 238);
+  border-radius: 5px;
+  background: rgb(245, 245, 245);
+  margin: 0 4px 0 0;
+}
+label {
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: #666;
+  line-height: 19px;
+}
