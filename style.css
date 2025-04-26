@@ -1,0 +1,107 @@
+body {
+  background: linear-gradient(180deg, #374151 0%, #111827 100%);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #fff;
+  margin: 0;
+}
+header {
+  padding: 72px 180px 69px;
+}
+.main-blog-logo {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23px;
+  border-radius: 3px;
+  box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 0.15);
+  background: rgb(75, 85, 99);
+  width: 35px;
+  height: 35px;
+  padding: 6px 12px;
+  margin: 0 12px 0 0;
+  box-sizing: border-box;
+}
+nav a:hover {
+  color: #d4d4d4;
+}
+nav a {
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+.search-form {
+  background-color: #283241;
+  border-radius: 100px;
+  width: 224px;
+  height: 40px;
+  border: none;
+  padding: 9px 0 12px 18px;
+  box-sizing: border-box;
+}
+.search-form button {
+  background-color: #283241;
+  border-style: none;
+  padding: 0;
+  margin: 0 17px 0 0;
+}
+.search-form input {
+  background-color: #283241;
+  color: #a9adb3;
+  font-size: 16px;
+  border-style: none;
+  width: 147px;
+}
+.point {
+  background-color: #adb1b7;
+  border-radius: 100px;
+  width: 4px;
+  height: 4px;
+}
+.head-name p {
+  font-size: 14px;
+  line-height: 16px;
+  color: #adb1b7;
+  margin: 0;
+}
+.head-name-info {
+  margin: 0 0 14px 0;
+}
+h1 {
+  font-size: 24px;
+  line-height: 158%;
+  margin: 0 0 30px 0;
+}
+h2 {
+  font-size: 16px;
+  line-height: 175%;
+}
+article {
+  margin: 28px 0 88px 0;
+}
+.main-text {
+  font-size: 20px;
+  line-height: 160%;
+  margin: 69px 0 0 0;
+}
+.text,
+.text a {
+  font-size: 16px;
+  line-height: 187%;
+  font-weight: 400;
+  color: #fff;
+}
+.text {
+  margin: 32px 0 0 0;
+}
+footer p {
+  font-size: 16px;
+  line-height: 175%;
+  color: #adb1b7;
+  margin: 0 0 77px 0;
+}
